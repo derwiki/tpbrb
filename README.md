@@ -1,5 +1,5 @@
-= tpb.rb
-Simple Ruby script to search thepiratebay ordered by seeds decreasing and print
+# tpb.rb
+Simple Ruby script to search the Pirate Bay ordered by seeds decreasing and print
 the first magnet link and how many seeds there are. The goal is to be able to
 use this from a remote rtorrent machine. Also, to satisfy a personal itch to
 benchmark `nokigiri` vs a regex strategy.
