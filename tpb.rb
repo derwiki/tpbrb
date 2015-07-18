@@ -5,7 +5,7 @@ require 'open-uri'
 
 # http://thepiratebay.sx/search/waking%20life/0/7/e
 q = URI::encode(ARGV[0..-1].join(' '))
-search_results_url = "http://thepiratebay.sx/search/#{ q }/0/7/0"
+search_results_url = "https://thepiratebay.mn/search/#{ q }/0/7/0"
 search_results = open(search_results_url)
 
 t = Time.now
